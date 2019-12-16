@@ -7,7 +7,7 @@ const resource = createResource();
 export default function App() {
   return (
     <div>
-      <h1>Learn Suspense</h1>
+      <h1>Blog Posts</h1>
       <Suspense fallback={<h2>Loading...</h2>}>
         <PostList resource={resource} />
       </Suspense>
